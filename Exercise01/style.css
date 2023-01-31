@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img.icon{
+    height: 10vh;
+}
+
+.title .content{
+    margin: 20px 0;
+    color: red;
+}
+
+.title ul{
+    list-style-type: square inside url("./images/sqred.jpg");
+    padding: 10px;
+}
+
+hr{
+    color: red;
+}
