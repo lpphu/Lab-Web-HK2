@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img.icon{
+    height: 10vh;
+}
+
+.section-first .title{
+    padding: 10px 0;
+    text-align: center;
+    color: yellowgreen;
+    text-transform: uppercase;
+}
+
+.section-first table{
+    width: 100%;
+    padding: 10px 0;
+}
+
+.section-first table thead{
+    background-color: aliceblue;
+    text-align: center;
+    color: blue;
+}
+
+.section-second table{
+    padding: 10px 0;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.section-second table tr, .section-second table tr td{
+    border: 2px solid black;
+}
+
+.section-second table thead{
+    text-align: center;
+    text-transform: uppercase;
+    color: green;
+    background-color: rgb(207, 207, 207);
+}
+
+.section-second table tbody tr:first-child{
+    background-color: aliceblue;
+    text-align: center;
+    color: blue;
+}
+
+.section-second table tbody tr td{
+    text-align: center;
+}
+
+.section-second table tbody tr td img{
+    width: 200px;
+    height: 15vh;
+}
+
+footer{
+    padding-top: 10px;
+}
+
+footer p{
+    padding-top: 5px;
+    text-align: center;
+}

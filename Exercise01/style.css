@@ -9,14 +9,36 @@ img.icon{
 
 .title .content{
     margin: 20px 0;
+    color: orange;
+}
+
+ul{
+    list-style: square;
+    padding: 20px;
+}
+li {
     color: red;
 }
 
-.title ul{
-    list-style-type: square inside url("./images/sqred.jpg");
-    padding: 10px;
+li span {
+    color: black;
 }
 
 hr{
-    color: red;
+    border: 1px solid red;
+}
+
+.someSences .titleSences{
+    padding: 30px;
+    color: green;
+}
+
+.someSences .sences h4{
+    color: yellowgreen;
+}
+
+.someSences .sences img{
+    padding-top: 20px;
+    height: 30vw;
+    width: 40vw;
 }
