@@ -13,6 +13,10 @@ img.bg-web{
     width: 100%;
 }
 
+.container .navbar{
+    width: 30%;
+}
+
 .container .navbar div{
     color: blue;
     border: 2px solid blue;
@@ -26,17 +30,30 @@ img.bg-web{
 }
 
 .container .section{
-    text-align: center;
     width: 100%;
     margin: 0 100px;
+}
+
+
+h3{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    text-align: center;
     color: red;
+    text-transform: uppercase;
 }
 
-.container .section img{
-    padding: 50px;
-    height: 10vw;
+table{
+    width: 100%;
+    color: blue;
+    font-size: 20px;
 }
 
-.container .section hr{
-    border: 1px solid red;
+table tr td{
+    margin: 5px;
+    line-height: 35px;
+}
+
+table tr td:first-child{
+    text-align: right;
 }
